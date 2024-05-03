@@ -1,0 +1,25 @@
+git init: Inicia o Repositório dentro da pasta do projeto
+
+git add . : Adiciona todos os arquivos do projeto
+
+git add nome.arquivo : Adiciona o arquivo editado
+
+git status: Mostra o estado do arquivo editado no git
+
+git diff: Apresenta o que foi modificado no arquivo, fazendo uma comparação entre o que era e o que foi feito.
+
+git commit -m "Mensagem do commit": Envia o commit para a branch.
+
+git log: Mostra os commit realizado indicando data, hora, nome, usuário, contato de quem fez a modificações.
+
+git branch: Mostra o ramo en que vocè se e encontra.
+
+git branch nomeX : Cria um branch com nomeX
+
+git checkout nomeX: Muda para o ramo onde vocè ira trabalhar e fazer modificações.
+
+git checkout master: Volta ao branch master.
+
+git merge nomeX: Estando no ramo máster o merge mas o nome do ramo nomeX, vai unir as modificações realizadas nele com as do ramo master.
+
+git branch -d nome-ramo: Elimina o ramo em que foram feitas as modificações e que já não precisamos mais dele.
